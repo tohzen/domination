@@ -9,13 +9,20 @@ In this assignment, we'll be writing a list of functions that affect the DOM in 
 These functions won't `return` anything, just make changes to the current DOM.
 
 1. Write a function that puts a line through the text of the first `<li>` in the unordered "Arguments" list (`<ul`). Since this function always does the same thing, it requires no parameters!
-2. Now call it! The first list item (`<li>`) should get what's known as a "strikethrough" style.
-3. Write a function that takes in a string representing an DOM element's `id` and a string representing a url. The function should set the image with that `id` to have that url as its image source.
-4. Now use that function to set the three images in the Image Area section to show three images of your choice. You'll need three separate calls to your function!
-5. This next function also doesn't require any parameters: write a function that always removes the last `<li>` from the Arguments `<ul>`  (try looking up "last child" and the `.remove` method). This is a bit tricky, but doable!
-6. Now use it to remove the last two items from that list. You'll need to call it twice!
-7. Write a function that takes in two strings, one representing a font size and one representing an id, and sets the thing with that id to have that size for its text.
-8. Try using it to change the size of any text on the page.
+2. 
+3. Now call it! The first list item (`<li>`) should get what's known as a "strikethrough" style.
+
+4. Write a function that takes in a string representing an DOM element's `id` and a string representing a url. The function should set the image with that `id` to have that url as its image source.
+   
+5. Now use that function to set the three images in the Image Area section to show three images of your choice. You'll need three separate calls to your function!
+   
+6. This next function also doesn't require any parameters: write a function that always removes the last `<li>` from the Arguments `<ul>`  (try looking up "last child" and the `.remove` method). This is a bit tricky, but doable!
+   
+7. Now use it to remove the last two items from that list. You'll need to call it twice!
+   
+8.  Write a function that takes in two strings, one representing a font size and one representing an id, and sets the thing with that id to have that size for its text.
+   
+9.  Try using it to change the size of any text on the page.
 
 ##### Part Two - DOM Elements as Function Parameters
 
@@ -38,5 +45,8 @@ These functions will all take in parameters and use them to make and return new 
 
 1. Write a function that takes in text and returns a new `<li>` with that text as its `innerText`.
 2. Test it by calling it with some text, placing the return value in a variable, and passing it to your append function from Step 1 of Part 2.
+
+
 3. Write a function that takes in two strings, one representing a header size and one some text, and returns a new header of that size (e.g., a '3' for the first parameter should result in an `<h3>`) with that text in it.
-4. Test it by calling it with a header size and some text, placing the return value in a variable, and passing it to your append function from Step 1 of Part 2.
+   
+5. Test it by calling it with a header size and some text, placing the return value in a variable, and passing it to your append function from Step 1 of Part 2.
